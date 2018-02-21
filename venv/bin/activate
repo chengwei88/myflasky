@@ -76,3 +76,8 @@ pydoc () {
 if [ -n "${BASH-}" ] || [ -n "${ZSH_VERSION-}" ] ; then
     hash -r 2>/dev/null
 fi
+
+# Set environment var for my flasky web app
+export MAIL_USERNAME="lichengwei214@gmail.com"
+export MAIL_PASSWORD="1q841984"
+export FLASKY_ADMIN="lichengwei214@gmail.com"
